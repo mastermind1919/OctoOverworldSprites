@@ -1,2 +1,2 @@
 # OctoOverworldSprites
-Overworld Sprites for Octopath Traveler
+Source for overworld sprites for Primrose and Ophilia in Octopath Traveler
