@@ -39,3 +39,4 @@ a purpose to the base job once you get the secondary jobs, but that isn't the ga
 but the sprites for left and right movement are different sprites in the file. This means that it is possible to fix the ambidextrous error in the sprites, but I have choosen not to to be more authentic to the base game.
 
 Unreal Engine Settings for Sprites:
+Todo.
