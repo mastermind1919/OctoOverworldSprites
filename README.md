@@ -4,7 +4,10 @@ Currently only Sorceror Primrose and Starseer Ophilia
 
 Installation:
 Find the directory for Octopath Traveler pak files, which unless you have moved the steam install directory is usually under 
-C:\Program Files (x86)\Steam\Steamapps\Common\OCTOPATH TRAVELER\Octopath_Traveler\Content\Paks. You should see a single pak file under this directory
+```
+C:\Program Files (x86)\Steam\Steamapps\Common\OCTOPATH TRAVELER\Octopath_Traveler\Content\Paks. 
+```
+You should see a single pak file under this directory
 Move the folder for the specific overworld sprite you want into this directory, and launch the game. The overworld sprites should be changed.
 
 
