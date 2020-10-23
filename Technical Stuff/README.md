@@ -1,9 +1,10 @@
-How I Managed This Mod:
+### How I Managed This Mod:
 
 Since this game uses the unreal engine (Version 4.18.2 to be percise), I first checked for a pak file to unpack and read.
 The relevent file was found under %Gamepath%/Octopath_Traveler/Content/Paks, with a name of Octopath_traveler-WindowsNoEditor.pak. No encryption is used, and is easily unpacked.
 Unpacking this yields the relevent assets of which the game uses to load everything, but of import to us is under Content/Character/Resource/{Player Name Encoded}/Textures.
 Player Name Encoded is a six letter name which corresponds to the playable characters in the following list:
+```
 PlyAli - Tressa
 PlyBal - Alfyn
 PlyGil - Therion
@@ -12,6 +13,7 @@ PlyRud - Olbric
 PlySha - Primrose
 PlyThe - Cyrus
 PlyUlr - Ophilia
+```
 
 I used umodel to extract the editable sprite layout for each character, and then apply them to the base job which is used in the overworld. To apply them, I first got the version of unreal used
 for the game, and first added the base sprites in the same file structure as the unpacked pak file. I then applied settings in the unreal import menu until the files which were cooked matched those
@@ -39,6 +41,7 @@ a purpose to the base job once you get the secondary jobs, but that isn't the ga
 but the sprites for left and right movement are different sprites in the file. This means that it is possible to fix the ambidextrous error in the sprites, but I have choosen not to to be more authentic to the base game.
 
 Unreal Engine Settings for Sprites:
+```
 for Player Sprites
 Compression Settings: UserInterface2D (RGBA)
 Mip Gen Settings: NoMipmaps
@@ -58,3 +61,4 @@ Mip Gen Settings: NoMipmaps
 Texture Group: 2D Pixels (unfiltered)
 Never Stream: checked
 Filter: Nearest
+```
