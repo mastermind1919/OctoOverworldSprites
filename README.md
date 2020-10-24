@@ -7,7 +7,8 @@ Find the directory for Octopath Traveler pak files, which unless you have moved 
 ```
 C:\Program Files (x86)\Steam\Steamapps\Common\OCTOPATH TRAVELER\Octopath_Traveler\Content\Paks. 
 ```
-You should see a single pak file under this directory
+You should see a single pak file under this directory.
+Head over to the release tab, download and unzip the latest release.
 Move the folder for the specific overworld sprite you want into this directory, and launch the game. The overworld sprites should be changed.
 
 
