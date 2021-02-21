@@ -25,6 +25,8 @@ Secondary Job Sprite Limitations:
 For most, if not all, of the secondary jobs, the sprites that are used are larger than that of the base job sprite. This leads to a problem, as with this method, the base job sprite sizes can not be
 changed, and will be cut off if not properly adjusted for. This lead to a predicament with the jobs that have capes, as they will not flutter when running like they should.
 
+-This limitation has been fixed with the findings in CustomSpriteDB, meaning that the jobs sprites can be as big as they want without being cutoff.
+
 Secondary Job Sprite Findings:
 
 Unsurprisingly, the secondary jobs do not have most of the sprites needed to make a full sprite list of all possible sprites in the game. What I find intreresting is that there is quite a bit more sprites than
